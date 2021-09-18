@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>Web Warung Tegal</title>
+        <link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1>Warung Tegal</h1>
+				<nav>
+					<ul>
+            <li><a href="index.html" class="current">beranda</a></li>
+            <li><a href="daftar.html">daftar masakan</a></li>
+            <li><a href="katering.html">katering</a></li>
+            <li><a href="tentang.html">lokasi</a></li>
+            <li><a href="kontak.html">kontak</a></li>
+					</ul>
+				</nav>
+			</header>
+            <section>
+                <div class="container">
+                    <h2 style="text-align: center;"><strong>Isi Form dan Kami Akan Hubungi Anda Secepatnya!</strong></h2>
+                    <form action="action_page.php">
+                  
+                      <label for="fname">Nama Lengkap</label>
+                      <input type="text" id="fname" name="fullname" placeholder="Nama Lengkap Anda">
+                  
+                      <label for="lname">Email</label>
+                      <input type="text" id="email" name="email" placeholder="Email Anda">
+                  
+                      <label for="country">Topik</label>
+                      <select id="country" name="country">
+                        <option value="request">Request Makanan</option>
+                        <option value="keluhan">Keluhan</option>
+                        <option value="feedback">Feedback</option>
+                      </select>
+                  
+                      <label for="subject">Apa Yang Ingin Anda Sampaikan?</label>
+                      <textarea id="subject" name="subject" placeholder="Tulis dan akan kami hubungi secepatnya!" style="height:200px"></textarea>
+                  
+                      <input type="submit" value="Kirim">
+                  
+                    </form>
+                  </div>
+            </section>
+			<footer>
+				&copy; 2015 Warung Tegal
+			</footer>
+		</div><!-- .wrapper -->
+	</body>
+</html>
